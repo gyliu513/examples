@@ -192,6 +192,8 @@ TF_MODEL_SERVER_HOST=$SERVICE_IP python app.py
 
 Then open browser with url: http://your-host-ip:5000
 
+In my case, the url is: http://9.30.218.75:5000
+
 ### Cli: Submit and query result
 
 By default the workflow deploys our model via Tensorflow Serving. Included in this example is a client that can query your model and provide results:
