@@ -388,3 +388,12 @@ argo submit model-train.yaml -n ${NAMESPACE} --serviceaccount tf-user \
 ## Conclusion and Next Steps
 
 This is an example of what your machine learning pipeline can look like. Feel free to play with the tunables and see if you can increase your model's accuracy (increasing `model-train-steps` can go a long way).
+
+## Delete
+
+```
+../kubeflow/scripts/kfctl.sh delete k8s
+```
+```
+kubectl delete ns mnist
+```
